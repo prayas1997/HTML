@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+    <link rel="stylesheet" href="survey.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="margin-left: 200px;">Advertising Estimate</h1>
+
+    <form style="margin-left:200px ;">
+        <label for="name">
+            Name/Company-name<sup class="star">*</sup><br>
+            <input  id=" name " type ="text" style="width: 400px;">
+        </label>
+        <br> <br>
+        <label for="email" >
+            Email <sup class="star">*</sup> <br>
+            <input  id=" email " type ="email" style="width: 400px;"> 
+        </label>
+        <br> <br>
+        <label for="sd">
+            Ad Start Date <sup class="star">*</sup><br>
+            <input  id=" sd " type ="text" required>
+        </label>
+        <br> <br>
+        <label for="ed">
+            Ad End Date <sup class="star">*</sup><br>
+            <input  id=" ed" type ="text">
+        </label>
+        <br> <br>
+
+        Advertising size(pixels) <br>
+        <label for="p">
+            
+            <input  id="p" type ="radio" name="mm"> 
+            Option 1 <br>
+            <input  id="p" type ="radio" name="mm"> 
+            Option 2 <br>
+            <input  id="p" type ="radio" name="mm"> 
+            Option 3
+
+        </label>
+        
+         <br> <br>
+         Which sites would you like to advertise on? <br>
+         <label for="ch">
+            
+            <input  id="ch" type ="checkbox" name="mm"> 
+            Option 1 <br>
+            <input  id="ch" type ="checkbox" name="mm"> 
+            Option 2 <br>
+            <input  id="ch" type ="checkbox" name="mm"> 
+            Option 3
+
+        </label>
+        <br> <br>
+        <label for="ad">
+            Website to be advertise <sup class="star">*</sup><br>
+            <input id="ad" type="text" style="width: 400px;">
+        </label>
+        <br> <br>
+        <label for="Cm">
+            Comments <br>
+            <input id="Cm" type="text" style="height: 200px; width: 400px;" >
+        </label>
+        <br><br>
+        <button type="button" onClick="alert('submitted')">Submit</button>
+        
+
+       
+    </form>
+</body>
+</html>
